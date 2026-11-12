@@ -1,0 +1,28 @@
+/* =====================================================================
+   Design tokens — the single source of truth for colours & fonts.
+   js/config.js reads the colour variables at startup, so changing a
+   colour here also changes it in the 3D scene, minimap and messages.
+   ===================================================================== */
+:root {
+  /* Palette */
+  --cyan:   #00e5ff;
+  --red:    #ff3048;
+  --green:  #3dff8a;
+  --warn:   #ffcc55;
+  --purple: #b04bff;
+  --pink:   #ff3a70;
+  --violet: #9b7bff;
+  --indigo: #7b8bff;
+  --ink:    #e8f4ff;
+  --dim:    #8aa0b8;
+  --bg:     #0b1020;
+  --on-accent: #041018;
+
+  /* Surfaces */
+  --panel: rgba(8, 14, 28, .72);
+  --line:  rgba(0, 229, 255, .35);
+
+  /* Typography */
+  --font-display: 'Orbitron', sans-serif;
+  --font-body:    'Rajdhani', system-ui, sans-serif;
+}
